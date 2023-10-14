@@ -576,6 +576,16 @@
                 ]),
                 new Patcher("bm2dx.dll", "2021-09-15", [
                     {
+                        name: "Wine fixes",
+                        tooltip : "Disables in-game effector",
+                        patches: [
+                            { offset: 0x2784a1, off: [0xE8, 0x4A, 0xA2, 0x00, 0x00], on: [0x90, 0x90, 0x90, 0x90, 0x90] },
+                            { offset: 0x2787c1, off: [0xE8, 0x9A, 0x99, 0x00, 0x00], on: [0x90, 0x90, 0x90, 0x90, 0x90] },
+                            { offset: 0x278c71, off: [0xE8, 0xCA, 0x89, 0x00, 0x00], on: [0x90, 0x90, 0x90, 0x90, 0x90] },
+                            { offset: 0x278e01, off: [0xE8, 0xAA, 0x82, 0x00, 0x00], on: [0x90, 0x90, 0x90, 0x90, 0x90] },
+                        ],
+                    },
+                    {
                         name: "SSE4.2 Fix",
                         tooltip : "This will allow the game to run on processors which do not support the SSE4.2 instruction set. If you can successfully boot the game, do NOT check this. This is known to cause a crash when using WASAPI audio.",
                         patches: [
