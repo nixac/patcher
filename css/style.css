@@ -25,7 +25,7 @@
 
 .subsection {
     grid-column: 1 / -1;
-    background-color: #a2a2a2;
+    background-color: #191724;
     margin: unset;
     /* I don't understand anything */
     margin-right: -15px;
@@ -38,7 +38,7 @@
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     color: inherit;
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-    background: #fff;
+    background: #1f1d2e;
 }
 
 .gameicon {
@@ -53,7 +53,7 @@
 
 label.gameicon {
     cursor: pointer;
-    background: #fffcf0;
+    background: #191724;
 }
 
 input.sectionToggle,
@@ -108,7 +108,7 @@ input:checked.sectionToggle + div {
 }
 
 .patchContainer {
-    background-color: white;
+    background-color: #191724;
     padding: 20px;
     max-width: 650px;
     margin: 0 auto 2em;
@@ -176,9 +176,9 @@ body {
     max-width: 1300px;
     line-height: 1.6;
     font-size: 18px;
-    color: #000;
+    color: #bddfeb;
     padding: 0 10px;
-    background: #e2e1e0;
+    background: #1f1d2e;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
 
