@@ -3,18 +3,16 @@ A tool to easily apply known hex edits to any binary, with examples for Bemani g
 
 Should work on most modern browsers.
 
-Live version hosted [on my website](https://mon.im/bemanipatcher/).
+Live version hosted as part of [linux arcade guide](https://nixac.codeberg.page/patcher/).
+
+Repository contains additional experimental patches, that aim to support running these games through wine.
 
 ## Asking about new patches
-These days, I do not create the patches. Everything is community submitted.
 If you would like new hex edits, make them yourself and make a pull request!
 
 ## Patch rules
-- No n-0 newer than 1 year ago. [Why?](docs/why_no_n_minus_zero.md)
-- *New for 2023* PC based arcade games only. The main focus is rhythm games though!
-- No autoplay patches
-  - It is far too easy to accidentally get people banned from their networks
-  - It's mainly used to upload autoplays to YouTube, which is not something I want to be involved with
+- acceptable quality (doesn't cause obvious clashes with other patch or is marked in some way if so)
+- while this fork accepts any patches for listed titles, you may prefer to submit your patch to [mon's BemaniPatcher](https://github.com/mon/BemaniPatcher/) instead, this fork pulls changes from upstream periodically, so your changes should be reflected here as well (unless patch here supersedes the one in upstream repository)
 
 ## Submitting a new game
 Here is your checklist:
